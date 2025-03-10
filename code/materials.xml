@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="29" name="Fuel">
+    <density units="g/cm3" value="10.5"/>
+    <nuclide ao="0.046716" name="U235"/>
+    <nuclide ao="0.28697" name="U238"/>
+    <nuclide ao="0.5" name="O16"/>
+    <nuclide ao="0.16482362974" name="C12"/>
+    <nuclide ao="0.00184637026" name="C13"/>
+  </material>
+  <material id="30" name="PyC1">
+    <density units="g/cm3" value="1.9"/>
+    <nuclide ao="0.988922" name="C12"/>
+    <nuclide ao="0.011078" name="C13"/>
+    <sab name="c_Graphite"/>
+  </material>
+  <material id="31">
+    <density units="g/cm3" value="1.1995"/>
+    <nuclide ao="0.988922" name="C12"/>
+    <nuclide ao="0.011078" name="C13"/>
+    <sab name="c_Graphite"/>
+  </material>
+  <material id="32" name="He">
+    <density units="atom/b-cm" value="0.0006"/>
+    <nuclide ao="2e-06" name="He3"/>
+    <nuclide ao="0.999998" name="He4"/>
+  </material>
+</materials>
