@@ -1,4 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <settings>
-  <run_mode>plot</run_mode>
+  <run_mode>eigenvalue</run_mode>
+  <particles>5000</particles>
+  <batches>100</batches>
+  <inactive>10</inactive>
+  <source particle="neutron" strength="1.0" type="independent">
+    <space type="box">
+      <parameters>-5 -5 -0.63 5 5 0.63</parameters>
+    </space>
+    <constraints>
+      <fissionable>true</fissionable>
+    </constraints>
+  </source>
+  <output>
+    <tallies>true</tallies>
+  </output>
 </settings>
