@@ -29,7 +29,7 @@
     <nuclide ao="0.0154358" name="Si30"/>
   </material>
   <material id="5">
-    <density units="g/cm3" value="1.1995"/>
+    <density units="g/cm3" value="1.7"/>
     <nuclide ao="0.988922" name="C12"/>
     <nuclide ao="0.011078" name="C13"/>
     <sab name="c_Graphite"/>
@@ -44,5 +44,78 @@
     <nuclide ao="3.336e-05" name="Ar36"/>
     <nuclide ao="6.29e-06" name="Ar38"/>
     <nuclide ao="0.00996035" name="Ar40"/>
+  </material>
+  <material id="7" name="SS304">
+    <density units="g/cm3" value="7.93"/>
+    <nuclide name="C12" wo="0.0007904054760685493"/>
+    <nuclide name="C13" wo="9.59452393145078e-06"/>
+    <nuclide name="P31" wo="0.00045"/>
+    <nuclide name="Si28" wo="0.006890513796212756"/>
+    <nuclide name="Si29" wo="0.0003623812719589797"/>
+    <nuclide name="Si30" wo="0.00024710493182826315"/>
+    <nuclide name="Ni58" wo="0.09071690215039636"/>
+    <nuclide name="Ni60" wo="0.03614754991395991"/>
+    <nuclide name="Ni61" wo="0.0015975347651505589"/>
+    <nuclide name="Ni62" wo="0.00517701010970768"/>
+    <nuclide name="Ni64" wo="0.0013610030607855044"/>
+    <nuclide name="N14" wo="0.0009960772133092955"/>
+    <nuclide name="N15" wo="3.922786690704343e-06"/>
+    <nuclide name="Mn55" wo="0.02"/>
+    <nuclide name="S32" wo="0.0002843058324248275"/>
+    <nuclide name="S33" wo="2.309645813262106e-06"/>
+    <nuclide name="S34" wo="1.3335457202628067e-05"/>
+    <nuclide name="S36" wo="4.9064559282261095e-08"/>
+    <nuclide name="Cr50" wo="0.007930004583164795"/>
+    <nuclide name="Cr52" wo="0.1590287884675572"/>
+    <nuclide name="Cr53" wo="0.01837981495548285"/>
+    <nuclide name="Cr54" wo="0.004661391993795167"/>
+    <nuclide name="B10" wo="0.0041299865718914825"/>
+    <nuclide name="B11" wo="0.018370013428108515"/>
+    <nuclide name="Fe54" wo="0.03514077715723882"/>
+    <nuclide name="Fe56" wo="0.5720410658883864"/>
+    <nuclide name="Fe57" wo="0.013447214435817773"/>
+    <nuclide name="Fe58" wo="0.0018209425185569381"/>
+  </material>
+  <material id="8" name="conc">
+    <density units="g/cm3" value="2.43"/>
+    <nuclide name="H1" wo="0.9996888076484954"/>
+    <nuclide name="H2" wo="0.0003111923515045644"/>
+  </material>
+  <material id="9" name="xm19">
+    <density units="g/cm3" value="7.88"/>
+    <nuclide name="Cr50" wo="0.009182110569980289"/>
+    <nuclide name="Cr52" wo="0.18413859717296097"/>
+    <nuclide name="Cr53" wo="0.021281891001085403"/>
+    <nuclide name="Cr54" wo="0.0053974012559733515"/>
+    <nuclide name="Ni58" wo="0.08399713162073737"/>
+    <nuclide name="Ni60" wo="0.03346995362403695"/>
+    <nuclide name="Ni61" wo="0.0014791988566208876"/>
+    <nuclide name="Ni62" wo="0.004793527879358962"/>
+    <nuclide name="Ni64" wo="0.0012601880192458373"/>
+    <nuclide name="Mn55" wo="0.05"/>
+    <nuclide name="Mo92" wo="0.0031571755605887732"/>
+    <nuclide name="Mo94" wo="0.0020230466356417564"/>
+    <nuclide name="Mo95" wo="0.0035326044875318586"/>
+    <nuclide name="Mo96" wo="0.0037497006790561346"/>
+    <nuclide name="Mo97" wo="0.002177458989194348"/>
+    <nuclide name="Mo98" wo="0.005577158780178165"/>
+    <nuclide name="Mo100" wo="0.002282854867808964"/>
+    <nuclide name="Si28" wo="0.009187351728283676"/>
+    <nuclide name="Si29" wo="0.0004831750292786396"/>
+    <nuclide name="Si30" wo="0.00032947324243768423"/>
+    <nuclide name="N14" wo="0.0029882316399278868"/>
+    <nuclide name="N15" wo="1.1768360072113029e-05"/>
+    <nuclide name="Nb93" wo="0.002"/>
+    <nuclide name="P31" wo="0.002"/>
+    <nuclide name="C12" wo="0.000592804107051412"/>
+    <nuclide name="C13" wo="7.195892948588084e-06"/>
+    <nuclide name="S32" wo="9.476861080827586e-05"/>
+    <nuclide name="S33" wo="7.698819377540353e-07"/>
+    <nuclide name="S34" wo="4.445152400876023e-06"/>
+    <nuclide name="S36" wo="1.6354853094087033e-08"/>
+    <nuclide name="Fe54" wo="0.03188611284184832"/>
+    <nuclide name="Fe56" wo="0.5190598345469687"/>
+    <nuclide name="Fe57" wo="0.012201761930034347"/>
+    <nuclide name="Fe58" wo="0.0016522906811486202"/>
   </material>
 </materials>
