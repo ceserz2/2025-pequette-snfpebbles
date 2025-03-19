@@ -1,4 +1,4 @@
 *.h5
-__pycache__*
-*.ipynb_checkpoints*
-.virtual_documents*
+__pycache__
+.ipynb_checkpoints
+.virtual_documents
